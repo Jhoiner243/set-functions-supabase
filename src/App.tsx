@@ -1,9 +1,11 @@
-import './App.css'
-import { Home } from './page/home/home'
+/* eslint-disable react/react-in-jsx-scope */
+import './App.css';
+import { RoutesApp } from './routes/routes';
+
 function App() {
   return (
       <div>
-        <Home />
+      <RoutesApp />
       </div>
   )
 }
